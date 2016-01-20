@@ -4,7 +4,7 @@
   "description": "Website pattern collection for your web development and designing pleasure",
   "main": "src/js/main.js",
   "author": "Marco Kaul <marco.kaul@ueberbit.de>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "autoprefixer": "^6.2.3",
