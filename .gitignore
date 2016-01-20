@@ -1,0 +1,9 @@
+.sass-cache
+/node_modules
+/src/app/cache/*
+/vendor/*
+
+/src/dist/*
+
+composer.phar
+npm-debug.log

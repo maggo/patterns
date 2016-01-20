@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Patterns</title>
+    <link rel="stylesheet" href="/dist/style.css"/>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css">
+        body {
+            padding: 0 20px;
+        }
+
+        .pattern {
+            padding-bottom: 40px;
+        }
+
+        .pattern-title {
+            font-size: 12px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+            padding: 5px;
+            color: #aaa;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+    <script src="/dist/main.bundle.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+{
+  "name": "patterns",
+  "version": "0.0.1",
+  "description": "Website pattern collection for your web development and designing pleasure",
+  "main": "src/js/main.js",
+  "author": "Marco Kaul <marco.kaul@ueberbit.de>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^6.2.3",
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^1.0.0",
+    "imports-loader": "^0.6.5",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.0",
+    "sass-loader": "^3.1.2",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js -p",
+    "devel": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maggo/patterns.git"
+  },
+  "dependencies": {
+  }
+}

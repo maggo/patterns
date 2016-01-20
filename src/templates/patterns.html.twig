@@ -1,0 +1,14 @@
+{% extends 'html.html.twig' %}
+
+{% block content %}
+{% for pattern in patterns %}
+    <div class="pattern">
+        <h2 class="pattern-title"><a href="/{{ pattern|replace({'.html.twig': ''}) }}">{{ pattern }}</a></h2>
+        <div class="pattern-content">
+            {% include pattern %}
+        </div>
+    </div>
+{% endfor %}
+{% endblock %}
+
+
