@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Website pattern collection for your web development and designing pleasure",
   "main": "src/js/main.js",
-  "author": "Marco Kaul <marco.kaul@ueberbit.de>",
+  "author": "Marco Kaul <marcokaul@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
